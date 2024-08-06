@@ -6,7 +6,17 @@
         height: 56px;
         li{
             list-style: none;
+            position: relative;
             color: white;
+            .line{
+                position: absolute;
+                height: 3px;
+                background-color: skyblue;;
+                width: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -2px;
+            }
         }
     }
     section {
