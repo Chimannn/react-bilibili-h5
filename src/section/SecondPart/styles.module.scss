@@ -19,14 +19,14 @@
             color: white;
             .line{
                 position: absolute;
-                height: 3px;
-                background-color: skyblue;;
+                height: 4px;
+                background-color: rgb(135, 235, 185);;
                 width: 100%;
                 left: 50%;
                 transform: translateX(-50%);
-                bottom: -2px;
+                bottom: -3px;
                 opacity: 0;
-                transition: opacity .4s;
+                transition: opacity .2s;
             }
             .visible{
                 opacity: 1;
